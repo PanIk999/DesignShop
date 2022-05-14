@@ -18,11 +18,7 @@ nav{
     opacity: 0.45; */
     flex-wrap: nowrap;
 }
-h1, .navLink{
-    
-}
-h1{
-}
+
 #navLinks{
     display:flex;
     justify-content:flex-end;
@@ -48,13 +44,7 @@ figcaption{
     display:flex;
     justify-content:space-between;
 }
-/* .Multi{
-    display:grid;
-    grid-template-columns: 1fr;
-} */
-/* .narrow{
-    width: 33vw;
-} */
+
 main{
     
     display: grid;
