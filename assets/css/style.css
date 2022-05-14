@@ -253,3 +253,35 @@ img{
 .Brand{
     color: #848484;  
 }
+footer{
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2 25vw;
+    grid-gap: 27px;
+}
+#footer1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#footer4{
+    grid-column-start: 5.4;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+#footer4 ul li{
+    list-style-type: none;
+}
+#footer4 ul li a{
+    text-decoration: none;
+}
+#footer2 ul li{
+    list-style-type: none;
+}
+#footer2 ul li a{
+    text-decoration: none;
+}
+
